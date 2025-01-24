@@ -1,0 +1,6 @@
+// Function to update the counter
+function updateCounter() {
+  counter++;
+  console.log('Counter updated:', counter); // Debug message
+  counterElement.textContent = counter;
+}
